@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel BT | Welcome</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.7em;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    h1, h2, h3 {
+      padding-bottom: 20px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    .container {
+      margin: auto; /* It is going to put everything to the middle */
+      max-width: 1100px;
+      overflow: auto; /* it shows no matter what */
+      padding: 0 20px;
+    }
+
+    .text-primary {
+      color: #ff608a;
+    }
+
+    .lead {
+      font-size: 22px;
+    }
+
+    .btn {
+      display: inline-block;
+      font-size: 18px;
+      color: #fff;
+      background-color: #ff608a;
+      padding: 10px 30px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .btn:hover, .btn:active {
+      background-color: #ff408a;
+    }
+
+    .btn-light {
+      background-color:indianred;
+      margin-top: 30px;
+    }
+
+    .btn-light:hover {
+      background-color: #f00;
+    }
+
+    .bg-dark {
+      background-color: #333;
+      color: #fff;
+    }
+
+    #navbar {
+      background: #222;
+      color: #fff;
+      overflow: auto; /* Background shows no matter what */
+    }
+
+    #navbar a {
+      color: #fff;
+    }
+
+    #navbar h1 {
+      float: left;
+      padding-top: 20px;
+    }
+
+    #navbar ul {
+      list-style: none;
+      float: right;
+    }
+
+    #navbar ul li {
+      float: left;
+    }
+
+    #navbar ul li a {
+      display: block;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #navbar ul li a:hover,
+    #navbar ul li a.current {
+      background: #444;
+      color: #ff608a;  
+    }
+
+    #showcase {
+      background: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fyiral.com%2Fwp-content%2Fuploads%2F2014%2F11%2Fnature_halloween_haunted_house_1920x1080_wallpaper_Wallpaper_1920x1080_www.wall321.com_.jpg&f=1&nofb=1")  no-repeat /* unique image */ center center/cover; /* to center and cover */
+      height: 600px;
+      opacity: 0.9;
+    }
+
+    #showcase .showcase-content {
+      color: #fff;
+      text-align: center;
+      padding-top: 170px;
+    }
+
+    #showcase .showcase-content h1 {
+      font-size: 60px;
+      line-height: 1.2em;
+    }
+
+    #showcase .showcase-content p {
+      padding-bottom: 20px;
+      line-height: 1.7em;
+    }
+
+    #home-info {
+      height: 400px;
+    }
+
+    #home-info .info-img {
+      float: left;
+      width: 50%;
+      background: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.wallpapermaiden.com%2Fimage%2F2017%2F04%2F12%2Fabandoned-house-horror-dark-furniture-fantasy-15169-resized.jpg&f=1&nofb=1") no-repeat;
+      min-height: 100%;
+    }
+
+    #home-info .info-content {
+      float: right;
+      width: 50%;
+      height: 100%;
+      text-align: center;
+      padding: 50px 30px;
+      overflow: hidden;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="container">
+        <h1 class="logo"><a href="index.html">CtD</a></h1>
+        <ul>
+          <li><a href="index.html" class="current">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="showcase">
+      <div class="container">
+        <div class="showcase-content">
+          <h1><span class="text-primary">Enjoy</span> Your Stay</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rem odio sed explicabo expedita ex.</p>
+          <a class="btn" href="about.html">About our Hotel</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="home-info" class="bg-dark">
+    <div class="info-img"></div>
+    <div class="info-content">
+      <h2><span class="text-primary">The History</span> Of Our Hotel</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati excepturi aliquid natus quo veniam. Aut quisquam iure ullam dolorem sapiente, vero aspernatur illo deleniti rem voluptates doloremque veniam nihil numquam soluta voluptatibus mollitia neque at eaque debitis temporibus maxime voluptatum.</p>
+      <a href="about.html" class="btn btn-light">Read More</a>
+    </div>
+  </section>
+</body>
+</html>
